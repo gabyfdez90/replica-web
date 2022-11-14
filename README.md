@@ -6,8 +6,8 @@ Product landing page for individual project.
 * HTML
 * CSS
 
-## Instalation
-***
+## Install and colaborate
 You can clone it from https://github.com/gabyfdez90/replica-web.git. 
-```
+
+
 
