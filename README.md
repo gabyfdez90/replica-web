@@ -1,6 +1,6 @@
 # Replica-web
 
-## Product landing page for individual project.
+Product landing page for individual project.
 
 ## Tecnologies
 * HTML
