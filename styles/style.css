@@ -1,7 +1,67 @@
-h2 {
-    font-size: 60px;
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
 }
 
-.navbar-item {
+body {
+   font-family: 'Mulish';
+}
 
+h1 {
+    font-family: 'Newsreader'
+}
+
+h2 {
+    font-family: 'Kanit'; 
+    font-size: 20px;
+}
+
+button {
+    height: 2rem;
+    width: max-content;
+    border: none;
+    border-radius: 40%;
+    outline: none;    
+}
+
+.navbar-bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    float: left;
+}
+.navbar-item {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
+}
+
+.blue-button {
+    background-color: #4A30F2;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.blue-button:hover{
+    background-color: #1C10E6;
 }
