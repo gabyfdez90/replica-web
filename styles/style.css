@@ -61,27 +61,38 @@ li {
 }
 
 .phone-container {
-    display:flex;
+    display:flex; 
     padding-top: 5rem;
     padding-left:10rem;
     padding-right:10rem;
     font-size:20px;
-    justify-content:center;
+    justify-content: center;
 }
 
+.phone-image {
+   position:absolute;
+   right:30vh;
+}
 .iphone{
     max-height: 400px;
-    min-height: 150px;
-    z-index: 2;
+    /* min-height: 150px; */
+    z-index: 3;
 }
-
+.iphone-image{
+    position:absolute;   
+    z-index:2;
+    right:-5vh;
+} 
 
 .circle {
+    position:absolute;  
     border-radius: 100%;
-    height:75%;
-    width: 140%;
+    height:55vh;
+    width:50vh;
     z-index: 1;
     background: linear-gradient(45deg, #9F1AE2 0%, #4330ED 100%);
+    right:-10vh;
+    top:10vh;
 }
 
 .download{
